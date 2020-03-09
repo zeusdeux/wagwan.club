@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "lib": ["es2018", "dom", "dom.iterable"],
+    "project": ".",
+
+    "target": "es2018",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "outDir": "./built",
+    "sourceMap": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+
+    "strict": true,
+    "noEmitOnError": true,
+    "noErrorTruncation": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true
+  },
+  "include": ["api/**/*"],
+  "exclude": ["node_modules", "built/**"]
+}

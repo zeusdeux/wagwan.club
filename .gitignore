@@ -1,0 +1,10 @@
+*
+!.gitignore
+!.nowignore
+!.prettierrc
+!api
+!api/**
+!public
+!public/**
+!*.json
+!Readme*

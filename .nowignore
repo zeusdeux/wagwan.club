@@ -1,0 +1,9 @@
+*
+!api
+!api/**
+!public
+!public/**
+!package*
+!now.json
+!tsconfig.json
+!Readme*

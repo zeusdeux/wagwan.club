@@ -1,0 +1,40 @@
+{
+  "name": "wagwan-club",
+  "scope": "zdx",
+  "alias": ["wagwan.club", "www.wagwan.club"],
+  "version": 2,
+  "public": false,
+  "builds": [
+    { "src": "api/**/*.ts", "use": "@now/node" },
+    { "src": "public/**/*", "use": "@now/static" }
+  ],
+  "routes": [
+    {
+      "src": "/favicon.*",
+      "methods": ["GET"],
+      "headers": {
+        "cache-control": "s-maxage=31536000"
+      },
+      "dest": "/public/favicon.ico"
+    },
+    {
+      "src": "/.*",
+      "methods": ["GET"],
+      "headers": {
+        "strict-transport-security": "max-age=31536000; includeSubDomains; preload"
+      },
+      "dest": "/api/randomGif.ts"
+    }
+  ],
+  "env": {
+    "TENOR_API_KEY": "@tenor-api-key-zdx"
+  },
+  "build": {
+    "env": {
+      "NODEJS_HELPERS": "0"
+    }
+  },
+  "github": {
+    "enabled": true
+  }
+}
