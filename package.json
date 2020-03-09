@@ -20,5 +20,14 @@
   "keywords": [
     "wagwan"
   ],
-  "author": "Mudit Ameta <zeusdeux@gmail.com>"
+  "author": "Mudit Ameta <zeusdeux@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeusdeux/wagwan.club.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeusdeux/wagwan.club/issues"
+  },
+  "homepage": "https://github.com/zeusdeux/wagwan.club#readme"
 }
