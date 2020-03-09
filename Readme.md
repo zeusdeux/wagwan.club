@@ -1,3 +1,3 @@
 # wagwan.club
 
-## wagwaaan fam!
+[wagwaaan fam!](https://wagwan.club)
