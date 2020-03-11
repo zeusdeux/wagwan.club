@@ -143,6 +143,7 @@ export default async function(_: IncomingMessage, res: ServerResponse) {
         justify-content: center;
         align-items: center;
         height: 100vh;
+        overflow: hidden;
         background-color: #000;
       }
       img, video {
